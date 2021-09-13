@@ -2,7 +2,7 @@
 import pyttsx3
 #Importing python PDF to reader
 import PyPDF2
-#Give location 
+ #Give location 
 book = open('oop_java.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(book)
 Pages = pdfReader.numPages
